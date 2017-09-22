@@ -1,0 +1,156 @@
+17/09/22 14:33:21 INFO client.RMProxy: Connecting to ResourceManager at turing.cds.iisc.ac.in/10.24.1.32:8050
+17/09/22 14:33:22 INFO client.AHSProxy: Connecting to Application History server at turing.cds.iisc.ac.in/10.24.1.32:10200
+17/09/22 14:33:22 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+17/09/22 14:33:22 INFO input.FileInputFormat: Total input paths to process : 1
+17/09/22 14:33:22 INFO mapreduce.JobSubmitter: number of splits:1
+17/09/22 14:33:22 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1503400455897_1786
+17/09/22 14:33:23 INFO impl.YarnClientImpl: Submitted application application_1503400455897_1786
+17/09/22 14:33:23 INFO mapreduce.Job: The url to track the job: http://turing.cds.iisc.ac.in:8088/proxy/application_1503400455897_1786/
+17/09/22 14:33:23 INFO mapreduce.Job: Running job: job_1503400455897_1786
+17/09/22 14:33:30 INFO mapreduce.Job: Job job_1503400455897_1786 running in uber mode : false
+17/09/22 14:33:30 INFO mapreduce.Job:  map 0% reduce 0%
+17/09/22 14:33:45 INFO mapreduce.Job:  map 5% reduce 0%
+17/09/22 14:33:48 INFO mapreduce.Job:  map 11% reduce 0%
+17/09/22 14:33:51 INFO mapreduce.Job:  map 17% reduce 0%
+17/09/22 14:33:54 INFO mapreduce.Job:  map 23% reduce 0%
+17/09/22 14:33:57 INFO mapreduce.Job:  map 29% reduce 0%
+17/09/22 14:34:00 INFO mapreduce.Job:  map 35% reduce 0%
+17/09/22 14:34:03 INFO mapreduce.Job:  map 41% reduce 0%
+17/09/22 14:34:06 INFO mapreduce.Job:  map 47% reduce 0%
+17/09/22 14:34:09 INFO mapreduce.Job:  map 54% reduce 0%
+17/09/22 14:34:12 INFO mapreduce.Job:  map 60% reduce 0%
+17/09/22 14:34:15 INFO mapreduce.Job:  map 100% reduce 0%
+17/09/22 14:34:22 INFO mapreduce.Job:  map 100% reduce 83%
+17/09/22 14:34:44 INFO mapreduce.Job:  map 100% reduce 100%
+17/09/22 14:34:46 INFO mapreduce.Job: Job job_1503400455897_1786 completed successfully
+17/09/22 14:34:46 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=12888729
+		FILE: Number of bytes written=26804407
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=72845867
+		HDFS: Number of bytes written=168
+		HDFS: Number of read operations=24
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=12
+	Job Counters 
+		Launched map tasks=1
+		Launched reduce tasks=6
+		Rack-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=258456
+		Total time spent by all reduces in occupied slots (ms)=529908
+		Total time spent by all map tasks (ms)=43076
+		Total time spent by all reduce tasks (ms)=44159
+		Total vcore-milliseconds taken by all map tasks=43076
+		Total vcore-milliseconds taken by all reduce tasks=44159
+		Total megabyte-milliseconds taken by all map tasks=264658944
+		Total megabyte-milliseconds taken by all reduce tasks=542625792
+	Map-Reduce Framework
+		Map input records=29997
+		Map output records=29997
+		Map output bytes=12775798
+		Map output materialized bytes=12888729
+		Input split bytes=149
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=29997
+		Reduce shuffle bytes=12888729
+		Reduce input records=29997
+		Reduce output records=12
+		Spilled Records=59994
+		Shuffled Maps =6
+		Failed Shuffles=0
+		Merged Map outputs=6
+		GC time elapsed (ms)=4994
+		CPU time spent (ms)=82990
+		Physical memory (bytes) snapshot=4628185088
+		Virtual memory (bytes) snapshot=81647591424
+		Total committed heap usage (bytes)=4946132992
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=12483163
+	File Output Format Counters 
+		Bytes Written=168
+17/09/22 14:34:46 INFO client.RMProxy: Connecting to ResourceManager at turing.cds.iisc.ac.in/10.24.1.32:8050
+17/09/22 14:34:46 INFO client.AHSProxy: Connecting to Application History server at turing.cds.iisc.ac.in/10.24.1.32:10200
+17/09/22 14:34:46 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+17/09/22 14:34:46 INFO input.FileInputFormat: Total input paths to process : 6
+17/09/22 14:34:46 INFO mapreduce.JobSubmitter: number of splits:6
+17/09/22 14:34:46 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1503400455897_1788
+17/09/22 14:34:46 INFO impl.YarnClientImpl: Submitted application application_1503400455897_1788
+17/09/22 14:34:46 INFO mapreduce.Job: The url to track the job: http://turing.cds.iisc.ac.in:8088/proxy/application_1503400455897_1788/
+17/09/22 14:34:46 INFO mapreduce.Job: Running job: job_1503400455897_1788
+17/09/22 14:34:54 INFO mapreduce.Job: Job job_1503400455897_1788 running in uber mode : false
+17/09/22 14:34:54 INFO mapreduce.Job:  map 0% reduce 0%
+17/09/22 14:35:00 INFO mapreduce.Job:  map 50% reduce 0%
+17/09/22 14:35:01 INFO mapreduce.Job:  map 67% reduce 0%
+17/09/22 14:35:06 INFO mapreduce.Job:  map 83% reduce 0%
+17/09/22 14:35:11 INFO mapreduce.Job:  map 100% reduce 0%
+17/09/22 14:35:12 INFO mapreduce.Job:  map 100% reduce 100%
+17/09/22 14:35:12 INFO mapreduce.Job: Job job_1503400455897_1788 completed successfully
+17/09/22 14:35:12 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=186
+		FILE: Number of bytes written=1026204
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1092
+		HDFS: Number of bytes written=54
+		HDFS: Number of read operations=21
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=6
+		Launched reduce tasks=1
+		Data-local map tasks=2
+		Rack-local map tasks=4
+		Total time spent by all maps in occupied slots (ms)=241914
+		Total time spent by all reduces in occupied slots (ms)=99972
+		Total time spent by all map tasks (ms)=40319
+		Total time spent by all reduce tasks (ms)=8331
+		Total vcore-milliseconds taken by all map tasks=40319
+		Total vcore-milliseconds taken by all reduce tasks=8331
+		Total megabyte-milliseconds taken by all map tasks=247719936
+		Total megabyte-milliseconds taken by all reduce tasks=102371328
+	Map-Reduce Framework
+		Map input records=12
+		Map output records=12
+		Map output bytes=156
+		Map output materialized bytes=216
+		Input split bytes=924
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=216
+		Reduce input records=12
+		Reduce output records=3
+		Spilled Records=24
+		Shuffled Maps =6
+		Failed Shuffles=0
+		Merged Map outputs=6
+		GC time elapsed (ms)=638
+		CPU time spent (ms)=16100
+		Physical memory (bytes) snapshot=14552162304
+		Virtual memory (bytes) snapshot=54754484224
+		Total committed heap usage (bytes)=14299955200
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=168
+	File Output Format Counters 
+		Bytes Written=54
+
